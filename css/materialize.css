@@ -2308,9 +2308,33 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0;
+  display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
 }
-
+.Mynd{
+	width: 100%;
+	height: auto;
+	float: left;
+	transition: box-shadow 0.5s;
+	cursor: pointer;
+	margin:0;
+	padding: 0;
+}
+.Mynd h2{
+	font-family: "Roboto", sans-serif;
+	color: white;
+	position: relative;
+	top: 1em;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+	transition: opacity 0.5s;
+	z-index: 5;
+	text-align: center;
+	bottom: 0;
+}
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
