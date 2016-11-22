@@ -43,7 +43,7 @@ body {
   /*max-width: 60em; /*960px*/
   margin: 0 auto;
   /*border: green solid 5px;*/
-  background: linear-gradient(to top left, blue, red);
+  background: linear-gradient(to top left, red, black);
 }
 .liturbody2 {
 	background: linear-gradient(#00FF1E, blue/*, yellow, red, #00FF1E, blue, yellow, red, #00FF1E,blue, yellow, red, #00FF1E, blue, yellow, red, #00FF1E, blue, yellow, red, #00FF1E, blue, yellow, red, #00FF1E,blue, yellow, red, #00FF1E, blue, yellow, red, #00FF1E*/); /* Standard syntax */
@@ -68,35 +68,39 @@ body {
 */
 /*----------Menu-----------*/
 header {
-	border: green solid 2px;
+	/*border: green solid 2px;*/
 }
 header label {
 	width: 100%;
 	display: inline-block;
 	text-align: right;
-	color: black;
+	/*color: black;*/
 	font-size: 20px;
 	box-sizing: border-box;
 	padding: 10px 20px 10px 20px;
 }
 header label:hover {
-	color: yellow;
+	color: black;
 }
 header li {
 	border-top: 1px solid black;
 	margin-top: 0px;
 	padding-top: 1px;
 	padding-bottom: 1px;
+    background-color: black;
 }
 header a {
 	text-decoration: none;
 	display: inline-block;
 }
+header li a {
+    color: red;
+}
 header li:hover {
 	background-color: black;
 }
 header li a:hover {
-	color: yellow;
+	color: black;
 }
 header input {
 	display: none;
@@ -117,7 +121,7 @@ header ul {
 
 /*
 	================================
-		Verslun fyrir 48em
+		myndir fyrir 48em
 	================================
 */
 
@@ -127,13 +131,14 @@ header ul {
 	float: left;
 	box-sizing: border-box;
 	display: block;
+    margin: 0;
 }
 .rammi2-2 {
-	width: 50%;
+	max-width: 64em;
 	padding: 0;
-	float: right;
 	box-sizing: border-box;
 	display: block;
+    margin: 0 auto;
 }
 .rammi1-1 {
 	width: 100%;
@@ -319,7 +324,7 @@ input#slideshow {
 }
 /*
 	================================
-	Verslun Myndir
+	Verslun Myndir þetta var aldrei virkt
 	================================
 */
 .blar-bakrunnur {
