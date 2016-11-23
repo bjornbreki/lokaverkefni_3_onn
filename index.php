@@ -11,18 +11,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="red" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Aðeins það besta</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Fleirra</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Fleirra</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Auka</i></a>
-    </div>
-  </nav>
+    <!--Hérna er header menu-->
+    <?php require './includes/Header.php'; ?>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
