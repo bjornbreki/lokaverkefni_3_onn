@@ -8566,3 +8566,32 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+
+/*
+  ========================================
+  Social buttons
+  ========================================
+*/
+@keyframes media-links{
+  0% {transform: translate(100px);}
+  50% {transform: translate(-50px);}
+  100% {transform: translate(0);}
+}
+.smedia {
+  width: 48px;
+  height: 192px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+}
+.smedia a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  background-image: url(../myndir/logos.png);
+  transform: translateX(50px);
+  animation-name: media-links;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
