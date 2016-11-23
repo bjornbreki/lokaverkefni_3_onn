@@ -94,7 +94,8 @@
       </div>
     </div>
   </footer>
-
+<!--Social media buttons-->
+    <?php require './includes/SocialMediaButtons.php';?>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
