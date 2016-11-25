@@ -1,0 +1,5 @@
+Til að ná í réttan kóða með PHP
+<!--Footer-->
+    <?php require './includes/Footer.php';?>
+<!--Social media buttons-->
+    <?php require './includes/SocialMediaButtons.php';?>
