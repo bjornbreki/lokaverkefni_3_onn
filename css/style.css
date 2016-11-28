@@ -75,11 +75,3 @@
 .pin:hover {
 background-color: #CC403A;
 }
-.insta {
-  background-color: #cd486b;
-  background-position: 0 -144px;
-  animation-delay: 150ms;
-}
-.insta:hover{
-  background-color: #663F22;
-}
