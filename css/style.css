@@ -33,3 +33,53 @@
 	text-align: center;
 	bottom: 0;
 }
+
+.smedia {
+  width: 48px;
+  height: 192px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+}
+.smedia a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  background-image: url(../myndir/logos.png);
+  transform: translateX(50px);
+  animation-name: media-links;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.twitter {
+  background-color: #00ACED;
+  background-position: 0 0;
+}
+.twitter:hover {
+  background-color: #198699;
+}
+.fb {
+  background-color: #3B5998;
+  background-position: 0 -48px;
+  animation-delay: 50ms;
+}
+.fb:hover {
+  background-color: #495EE5;
+}
+.pin {
+  background-color: #CB2027;
+  background-position: 0 -96px;
+  animation-delay: 100ms;
+}
+.pin:hover {
+background-color: #CC403A;
+}
+.insta {
+  background-color: #cd486b;
+  background-position: 0 -144px;
+  animation-delay: 150ms;
+}
+.insta:hover{
+  background-color: #663F22;
+}
