@@ -12,3 +12,24 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.Mynd{
+	width: 100%;
+	height: auto;
+	float: left;
+	transition: box-shadow 0.5s;
+	cursor: pointer;
+	margin:0;
+	padding: 0;
+}
+.Mynd h3{
+	color: white;
+	position: relative;
+	top: 1em;
+	opacity: 1;
+	margin: 0;
+	padding: 0;
+	transition: opacity 0.5s;
+	z-index: 5;
+	text-align: center;
+	bottom: 0;
+}
